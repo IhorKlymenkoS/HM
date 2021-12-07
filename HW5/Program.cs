@@ -67,14 +67,12 @@ namespace HW5
         static int Min(int[,] matrix)
         {
             (int minI1, int minI2) = MinI(matrix);
-            int min = matrix[minI1, minI2];
-            return min;
+            return matrix[minI1, minI2];
         }
         static int Max(int[,] matrix)
         {
             (int maxI1, int maxI2) = MaxI(matrix);
-            int max = matrix[maxI1, maxI2];
-            return max;
+            return matrix[maxI1, maxI2];
         }
         static int LargestCellsOld(int[,] matrix)
         {
@@ -470,7 +468,6 @@ namespace HW5
                         }
                     }
                 }
-
             }
 
             return count2;
